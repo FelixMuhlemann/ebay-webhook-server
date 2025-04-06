@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ebay-webhook-server
+    env: python
+    buildCommand: ""
+    startCommand: python webhook_server.py
+    plan: free
